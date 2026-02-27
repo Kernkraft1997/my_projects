@@ -27,7 +27,7 @@ try:
     speak(f"Ты сказал: {text}")
 
 except sr.UnknownValueError:
-    print("❌ Я Не расслышал")
-    speak("Извини, не расслышал")
+    print("❌ Я тебя не расслышал бро")
+    speak("Я тебя не расслышал бро")
 except sr.RequestError:
     print("❌ Ошибка соединения")
